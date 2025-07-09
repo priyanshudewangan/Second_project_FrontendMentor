@@ -16,7 +16,8 @@ article{
     border-radius: 15px;
     box-shadow: 5px 10px;
     overflow: hidden;
-    padding: 10px;
+    padding: min(5vm, 1rem); 
+    /* This padding will either give 5% of the screen but never more than 1rem*/
 
 }
 
@@ -71,6 +72,6 @@ img{
 .name-text{
     font-size: 13px;
     font-weight: 650;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-block-start: 10px;
+    margin-inline-start: 10px;
 }
